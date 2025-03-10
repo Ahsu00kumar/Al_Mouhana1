@@ -216,6 +216,11 @@ header {
     object-fit: cover;
 }
 
+#portfolio.our_portfolio_section .portfolio_box .portfolio_image_wrapper .overlay figure img {
+    height: auto;
+    min-height: auto;
+}
+
 .arrow .outer-div {
     display: flex;
     align-items: center;

@@ -7,4 +7,4 @@
 <script src="assets/js/video-section.js"></script>
 <script src="assets/js/counter.js"></script>
 <script src="assets/js/animation.js"></script>
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="assets/js/translater.js"></script>

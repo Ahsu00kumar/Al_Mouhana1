@@ -1,26 +1,3 @@
-/*------------------------------------------------------------------
-[Master Stylesheet]
-
-Project:  Blazin
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. Body
-2. Header
-3. Banner Section
-4. About Us Section
-5. Services Section
-6. Statistics Section
-7. Our Portfolio Section
-8. Who We Are Section
-9. Testimonials Section
-10. Our Staff Section
-11. Client Logo's Section
-12. Contact Us Section
-13. Footer Section
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap');
 
 body {
@@ -2764,7 +2741,7 @@ footer {
 
 .contact-banner-section::before {
     content: "";
-    background-image: url('../images/contact_banner_background.jpg');
+    background-image: url('../images/banner/about_us_6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

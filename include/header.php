@@ -15,6 +15,11 @@
         color: rgb(255, 255, 255) !important;
 
     }
+
+    .goog-te-gadget-simple img{
+        display: none;
+    }
+    
 </style>
 <header id="main-header">
     <div class="container">
