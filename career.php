@@ -325,7 +325,7 @@
                 </div>
                 <div class="modal-footer justify-content-center">
 
-                    <button type="button" class="btn btn-primary" onclick="location.href='career_form.php'">Submit</button>
+                    <button type="button" class="btn btn-primary" onclick="location.href='career_form.php'">Apply Now</button>
                 </div>
             </div>
         </div>
