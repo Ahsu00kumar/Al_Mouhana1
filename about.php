@@ -11,6 +11,119 @@
         .footer-section {
             padding-top: 100px;
         }
+
+        .box_section:hover {
+            transition: 0.35s all;
+            transform: scale(1.035);
+        }
+
+        .box_section {
+            border-radius: 0.9rem;
+            position: relative;
+            z-index: 1;
+            box-sizing: border-box;
+            overflow: hidden;
+            border: 1px solid #dddddd;
+            background: #FFF;
+            box-shadow: 0px 0px 12px -4px rgba(0, 0, 0, 0.25);
+            padding: 3.5rem;
+            min-height: 340px;
+            transform: scale(1);
+            transition: 0.35s all;
+            margin-bottom: 2rem;
+        }
+
+        .box_content {
+            position: relative;
+            z-index: 4;
+        }
+
+        .box_section .images_section_bg svg {
+            position: absolute;
+            z-index: 2;
+            background-size: 50% 36%;
+            background-repeat: no-repeat;
+            background-position: center;
+            right: -2px;
+            top: -2px;
+        }
+
+        .images_section_bg .image_section_load img {
+            width: 100px;
+            height: 75px;
+            position: absolute;
+            z-index: 3;
+            right: 22px;
+            top: 18px;
+            mix-blend-mode: darken;
+            object-fit: contain;
+        }
+
+        .box_content_inliner {
+            display: flex;
+            align-items: center;
+        }
+
+        .box_content h2 {
+            color: #000;
+            font-family: 'Manrope', sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            padding-bottom: 1.5rem;
+        }
+
+        .box_content_inliner svg {
+            margin-top: -2rem;
+        }
+
+        .box_content p {
+            color: #000;
+            font-family: 'Manrope', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 37px;
+            /* width: 95%; */
+        }
+
+        .rounder {
+            background-color: #FFC700;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.25));
+            position: relative;
+            z-index: 0;
+            top: -50px;
+            left: -28px;
+        }
+
+        .about_section .about_images .about_img3,
+        .about_section .about_images .about_img1 {
+            width: 285px;
+            height: 237px;
+        }
+
+        .about_section .about_images .about_img4 {
+            width: 409px;
+            height: 270px;
+        }
+
+        .about_section .about_images .about_img2 {
+            width: 160px;
+            height: 170px;
+        }
+
+        .about_section .about_images .about_img1 img,
+        .about_section .about_images .about_img3 img,
+        .about_section .about_images .about_img4 img,
+        .about_section .about_images .about_img2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     </style>
 </head>
 
@@ -54,22 +167,22 @@
             <img src="assets/images/sub_banner_shape3.png" alt="" class="img-fluid">
         </figure>
     </div>
-    <section class="about_section" id="digital_solutions">
+    <section class="about_section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-12 col-sm-12 col-12">
                     <div class="about_images position-relative">
                         <figure class="mb-0 about_img1 position-absolute">
-                            <img src="assets/images/about_aboutus_img1.jpg" alt="" class="img-fluid">
+                            <img src="assets/images/banner/product_banner.jpg" alt="" class="img-fluid">
                         </figure>
                         <figure class="mb-0 about_img2 position-absolute">
-                            <img src="assets/images/about_aboutus_img2.jpg" alt="" class="img-fluid">
+                            <img src="assets/images/banner/about_banner_1.jpeg" alt="" class="img-fluid">
                         </figure>
                         <figure class="mb-0 about_img3 position-absolute">
-                            <img src="assets/images/about_aboutus_img3.jpg" alt="" class="img-fluid">
+                            <img src="assets/images/banner/about_us_6.jpg" alt="" class="img-fluid">
                         </figure>
                         <figure class="mb-0 about_img4 position-absolute">
-                            <img src="assets/images/about_aboutus_img4.jpg" alt="" class="img-fluid">
+                            <img src="assets/images/banner/Construction-tools-28.png" alt="" class="img-fluid">
                         </figure>
                         <figure class="mb-0 about_shape1 position-absolute shape_2">
                             <img src="assets/images/about_aboutus_shape1.jpg" alt="" class="img-fluid">
@@ -92,7 +205,7 @@
                 <div class="col-lg-5 col-md-12 col-sm-12 col-12 d-flex align-items-center">
                     <div class="heading" data-aos="fade-right">
                         <div class="line_wrapper position-relative">
-                            <h6>Al Mahna Trading Company</h6>
+                            <h6>Al-Muhanna Trading Company </h6>
                             <h2>who are we</h2>
                             <figure class="mb-0 position-absolute">
                                 <img src="assets/images/red_line.png" alt="" class="img-fluid">
@@ -116,61 +229,64 @@
     </section>
 
 
-    <section class="mission_vision_section">
+    <section class="mission_vision_section pt-2">
         <div class="container">
-            <div class="row" data-aos="fade-up">
+            <div class="row justify-content-center " data-aos="fade-up">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-md-0 mb-4">
-                    <div class="box">
-                        <div class="image_wrapper">
-                            <figure class="mb-0">
-                                <img src="assets/images/mission_img.png" alt="" class="img-fluid">
-                            </figure>
+                    <div class="box_section">
+                        <div class="images_section_bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="147" viewBox="0 0 195 177" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8294 0L179 0C187.837 0 195 7.16344 195 16V147.307C174.315 165.459 147.202 176.464 117.519 176.464C52.6151 176.464 0 123.849 0 58.9449C0 37.463 5.76385 17.3273 15.8294 0Z" fill="#FFC700"></path>
+                            </svg>
+                            <div class="image_section_load">
+                                <img src="assets/images/download.png" alt="our vision">
+                            </div>
                         </div>
-                        <div class="content">
-                            <h4>Our Mission</h4>
-                            <p class="text-size-16 mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia nulla pariatur excepteur sint occaecat ac at non proident sunt in culrea.</p>
+                        <div class="box_content">
+                            <div class="box_content_inliner">
+                                <h2>Our Vision</h2>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101" fill="none">
+                                    <circle cx="31.8198" cy="50.9117" r="22.5" transform="rotate(-135 31.8198 50.9117)" fill="#FF9900" fill-opacity="0.2"></circle>
+                                    <circle cx="84.853" cy="49.4975" r="11" transform="rotate(-135 84.853 49.4975)" fill="#FF9900" fill-opacity="0.2"></circle>
+                                </svg>
+                            </div>
+                            <p class="mb-0">
+                                Al-Muhanna Trading Company was established to keep pace with the development in the Kingdom of Saudi Arabia and the Arab Gulf countries in the field of building materials.
+                            </p>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-4">
-                    <div class="box box2">
-                        <div class="image_wrapper">
-                            <figure class="mb-0">
-                                <img src="assets/images/vision_img.png" alt="" class="img-fluid">
-                            </figure>
-                        </div>
-                        <div class="content">
-                            <h4>Our Vision</h4>
-                            <p class="text-size-16 mb-0">Guis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia nulla pariatur excepteur sint occaecat ac at non proident sunt in culrea.</p>
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-md-0 mb-4">
-                    <div class="box">
-                        <div class="image_wrapper">
-                            <figure class="mb-0">
-                                <img src="assets/images/mission_img.png" alt="" class="img-fluid">
-                            </figure>
+                    <div class="box_section">
+                        <div class="images_section_bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="147" viewBox="0 0 195 177" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8294 0L179 0C187.837 0 195 7.16344 195 16V147.307C174.315 165.459 147.202 176.464 117.519 176.464C52.6151 176.464 0 123.849 0 58.9449C0 37.463 5.76385 17.3273 15.8294 0Z" fill="#FFC700"></path>
+                            </svg>
+                            <div class="image_section_load">
+                                <img src="assets/images/employees.png" alt="our vision">
+                            </div>
                         </div>
-                        <div class="content">
-                            <h4>Our Mission</h4>
-                            <p class="text-size-16 mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia nulla pariatur excepteur sint occaecat ac at non proident sunt in culrea.</p>
+                        <div class="box_content">
+                            <div class="box_content_inliner">
+                                <h2>Employees</h2>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101" fill="none">
+                                    <circle cx="31.8198" cy="50.9117" r="22.5" transform="rotate(-135 31.8198 50.9117)" fill="#FF9900" fill-opacity="0.2"></circle>
+                                    <circle cx="84.853" cy="49.4975" r="11" transform="rotate(-135 84.853 49.4975)" fill="#FF9900" fill-opacity="0.2"></circle>
+                                </svg>
+                            </div>
+                            <p class="mb-0">
+                                we choose our employees in higher level of selection since they are considered our company's assets
+
+
+                            </p>
                         </div>
+
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-4">
-                    <div class="box box2">
-                        <div class="image_wrapper">
-                            <figure class="mb-0">
-                                <img src="assets/images/vision_img.png" alt="" class="img-fluid">
-                            </figure>
-                        </div>
-                        <div class="content">
-                            <h4>Our Vision</h4>
-                            <p class="text-size-16 mb-0">Guis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia nulla pariatur excepteur sint occaecat ac at non proident sunt in culrea.</p>
-                        </div>
-                    </div>
-                </div>
+
 
             </div>
         </div>
@@ -181,79 +297,66 @@
     <section class="our_achievements_section position-relative overflow-hidden">
         <div class="container">
             <div class="row position-relative">
-                <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                     <div class="heading">
                         <div class="line_wrapper position-relative">
-                            <h6>Why choose us</h6>
-                            <h2 class="text-white">Let’s Start Your Project With Blazin</h2>
+                            <h6> Our Core Values</h6>
+                            <h2 class="text-white">Experience</h2>
                             <figure class="mb-0 position-absolute">
                                 <img src="assets/images/white_line.png" alt="" class="img-fluid">
                             </figure>
                         </div>
-                        <p class="text-white text-size-16">Nam libero tempore, cum soluta nobis est eligendi optio impedit quo minus id quod maxime placeat facere posae voluptas assumenda est, omnis dolor repellendus.</p>
-                        <div class="btn_wrapper">
-                            <a class="text-decoration-none default-btn hover-effect readmore_btn" href="services.html">Get Started<i class="fa-thin fa-arrow-right-long"></i></a>
-                        </div>
+                        <p class="text-white text-size-16">We have more than 40 years of practical experience in the field of building materials and the needs of the Saudi market
+
+                        </p>
+
                     </div>
-                </div>
-                <div class="col-lg-7 col-md-12 col-sm-12 col-12">
-                    <div class="achievements_right_content" data-aos="fade-right">
-                        <div class="our_achievements_box box">
-                            <div class="image_wrapper">
-                                <figure>
-                                    <img src="assets/images/achievement_1.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                            <div class="content_wrapper">
-                                <div class="span_wrapper">
-                                    <span class="text-white">3,860</span>
-                                </div>
-                                <p class="text-size-16 mb-0">Satisfied Clients</p>
-                            </div>
+
+                    <div class="heading">
+                        <div class="line_wrapper position-relative">
+                            <h2 class="text-white">Prices</h2>
+                            <figure class="mb-0 position-absolute">
+                                <img src="assets/images/white_line.png" alt="" class="img-fluid">
+                            </figure>
                         </div>
-                        <div class="our_achievements_box">
-                            <div class="image_wrapper">
-                                <figure class="yellow_circle">
-                                    <img src="assets/images/achievement_2.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                            <div class="content_wrapper">
-                                <div class="span_wrapper">
-                                    <span class="text-white">8,550</span>
-                                </div>
-                                <p class="text-size-16 mb-0">Projects Completed</p>
-                            </div>
-                        </div>
-                        <div class="our_achievements_box box">
-                            <div class="image_wrapper">
-                                <figure class="yellow_circle">
-                                    <img src="assets/images/achievement_3.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                            <div class="content_wrapper">
-                                <div class="span_wrapper">
-                                    <span class="text-white counter">180</span>
-                                    <span class="plus text-white">+</span>
-                                </div>
-                                <p class="text-size-16 mb-0">Awards Win</p>
-                            </div>
-                        </div>
-                        <div class="our_achievements_box">
-                            <div class="image_wrapper">
-                                <figure>
-                                    <img src="assets/images/achievement_4.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                            <div class="content_wrapper">
-                                <div class="span_wrapper">
-                                    <span class="text-white counter">90</span>
-                                    <span class="plus text-white">+</span>
-                                </div>
-                                <p class="text-size-16 mb-0">Team Members</p>
-                            </div>
-                        </div>
+                        <p class="text-white text-size-16">We provide our valued customers with the best products at the best and lowest prices and this is the secret of our success.
+                        </p>
+
                     </div>
+
+
                 </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="heading">
+                        <div class="line_wrapper position-relative">
+                            <h6>&nbsp;</h6>
+                            <h2 class="text-white">Message</h2>
+                            <figure class="mb-0 position-absolute">
+                                <img src="assets/images/white_line.png" alt="" class="img-fluid">
+                            </figure>
+                        </div>
+                        <p class="text-white text-size-16">Exquisite work with devotion and passion as we take pride in serving and caring for our customers.
+
+                        </p>
+
+                    </div>
+
+                    <div class="heading">
+                        <div class="line_wrapper position-relative">
+                            <h2 class="text-white">Our Branches</h2>
+                            <figure class="mb-0 position-absolute">
+                                <img src="assets/images/white_line.png" alt="" class="img-fluid">
+                            </figure>
+                        </div>
+                        <p class="text-white text-size-16">We are located in Riyadh and Jeddah and serve all cities in Saudi Arabia.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
                 <figure class="triangle_shape mb-0 position-absolute shape">
                     <img src="assets/images/achievement_triangle_shape.png" alt="" class="img-fluid">
                 </figure>
@@ -266,7 +369,7 @@
             </figure>
         </div>
     </section>
-
+  
 
 
     <section class="our_portfolio_section sub_portfolio_section position-relative">
