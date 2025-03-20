@@ -124,6 +124,10 @@
             height: 100%;
             object-fit: cover;
         }
+
+        .line_wrapper_history h2 {
+            color: #fff !important;
+        }
     </style>
 </head>
 
@@ -229,68 +233,6 @@
     </section>
 
 
-    <section class="mission_vision_section pt-2">
-        <div class="container">
-            <div class="row justify-content-center " data-aos="fade-up">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-md-0 mb-4">
-                    <div class="box_section">
-                        <div class="images_section_bg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="147" viewBox="0 0 195 177" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8294 0L179 0C187.837 0 195 7.16344 195 16V147.307C174.315 165.459 147.202 176.464 117.519 176.464C52.6151 176.464 0 123.849 0 58.9449C0 37.463 5.76385 17.3273 15.8294 0Z" fill="#FFC700"></path>
-                            </svg>
-                            <div class="image_section_load">
-                                <img src="assets/images/download.png" alt="our vision">
-                            </div>
-                        </div>
-                        <div class="box_content">
-                            <div class="box_content_inliner">
-                                <h2>Our Vision</h2>
-
-                                <svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101" fill="none">
-                                    <circle cx="31.8198" cy="50.9117" r="22.5" transform="rotate(-135 31.8198 50.9117)" fill="#FF9900" fill-opacity="0.2"></circle>
-                                    <circle cx="84.853" cy="49.4975" r="11" transform="rotate(-135 84.853 49.4975)" fill="#FF9900" fill-opacity="0.2"></circle>
-                                </svg>
-                            </div>
-                            <p class="mb-0">
-                                Al-Muhanna Trading Company was established to keep pace with the development in the Kingdom of Saudi Arabia and the Arab Gulf countries in the field of building materials.
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-md-0 mb-4">
-                    <div class="box_section">
-                        <div class="images_section_bg">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="147" viewBox="0 0 195 177" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8294 0L179 0C187.837 0 195 7.16344 195 16V147.307C174.315 165.459 147.202 176.464 117.519 176.464C52.6151 176.464 0 123.849 0 58.9449C0 37.463 5.76385 17.3273 15.8294 0Z" fill="#FFC700"></path>
-                            </svg>
-                            <div class="image_section_load">
-                                <img src="assets/images/employees.png" alt="our vision">
-                            </div>
-                        </div>
-                        <div class="box_content">
-                            <div class="box_content_inliner">
-                                <h2>Employees</h2>
-
-                                <svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101" fill="none">
-                                    <circle cx="31.8198" cy="50.9117" r="22.5" transform="rotate(-135 31.8198 50.9117)" fill="#FF9900" fill-opacity="0.2"></circle>
-                                    <circle cx="84.853" cy="49.4975" r="11" transform="rotate(-135 84.853 49.4975)" fill="#FF9900" fill-opacity="0.2"></circle>
-                                </svg>
-                            </div>
-                            <p class="mb-0">
-                                we choose our employees in higher level of selection since they are considered our company's assets
-
-
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
 
 
 
@@ -369,7 +311,272 @@
             </figure>
         </div>
     </section>
-  
+    <section class="mission_vision_section py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center " data-aos="fade-up">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-md-0 mb-4">
+                    <div class="box_section">
+                        <div class="images_section_bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="147" viewBox="0 0 195 177" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8294 0L179 0C187.837 0 195 7.16344 195 16V147.307C174.315 165.459 147.202 176.464 117.519 176.464C52.6151 176.464 0 123.849 0 58.9449C0 37.463 5.76385 17.3273 15.8294 0Z" fill="#FFC700"></path>
+                            </svg>
+                            <div class="image_section_load">
+                                <img src="assets/images/download.png" alt="our vision">
+                            </div>
+                        </div>
+                        <div class="box_content">
+                            <div class="box_content_inliner">
+                                <h2>Our Vision</h2>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101" fill="none">
+                                    <circle cx="31.8198" cy="50.9117" r="22.5" transform="rotate(-135 31.8198 50.9117)" fill="#FF9900" fill-opacity="0.2"></circle>
+                                    <circle cx="84.853" cy="49.4975" r="11" transform="rotate(-135 84.853 49.4975)" fill="#FF9900" fill-opacity="0.2"></circle>
+                                </svg>
+                            </div>
+                            <p class="mb-0">
+                                Al-Muhanna Trading Company was established to keep pace with the development in the Kingdom of Saudi Arabia and the Arab Gulf countries in the field of building materials.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-md-0 mb-4">
+                    <div class="box_section">
+                        <div class="images_section_bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="147" viewBox="0 0 195 177" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8294 0L179 0C187.837 0 195 7.16344 195 16V147.307C174.315 165.459 147.202 176.464 117.519 176.464C52.6151 176.464 0 123.849 0 58.9449C0 37.463 5.76385 17.3273 15.8294 0Z" fill="#FFC700"></path>
+                            </svg>
+                            <div class="image_section_load">
+                                <img src="assets/images/employees.jpg" alt="our vision">
+                            </div>
+                        </div>
+                        <div class="box_content">
+                            <div class="box_content_inliner">
+                                <h2>Employees</h2>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="101" height="101" viewBox="0 0 101 101" fill="none">
+                                    <circle cx="31.8198" cy="50.9117" r="22.5" transform="rotate(-135 31.8198 50.9117)" fill="#FF9900" fill-opacity="0.2"></circle>
+                                    <circle cx="84.853" cy="49.4975" r="11" transform="rotate(-135 84.853 49.4975)" fill="#FF9900" fill-opacity="0.2"></circle>
+                                </svg>
+                            </div>
+                            <p class="mb-0">
+                                we choose our employees in higher level of selection since they are considered our company's assets
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .with_outline_relative {
+            position: relative;
+            color: #000;
+        }
+
+        .with_outline {
+            position: relative;
+            font-size: 5rem;
+            color: #000;
+            font-weight: 700;
+            color: rgb(241, 241, 241);
+            left: 0;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 0.09rem;
+            user-select: none;
+            background-color: #fff;
+        }
+
+        .with_outline_h6 {
+            position: relative;
+            /* top: 5rem; */
+            left: 5rem;
+            font-size: 5rem;
+            /* color: #000; */
+            font-weight: 700;
+            color: rgb(242, 242, 242);
+            user-select: none;
+            background-color: #fff;
+        }
+
+        .background_r {
+            background-size: auto;
+            align-items: flex-start;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+    <section class="about_section" style="background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.61)),url(assets/images/banner/2149057716.jpg);background-repeat: no-repeat;background-size:cover">
+        <div class="container">
+            <div class="row mx-0">
+                <div class="col-sm-12 text-center">
+                    <div class="heading" data-aos="fade-right">
+                        <div class="line_wrapper line_wrapper_history position-relative">
+                            <h2 class="mb-2">History</h2>
+                            <figure class="mb-0 position-absolute1">
+                                <img src="assets/images/red_line.png" alt="" class="img-fluid">
+                            </figure>
+                            <h6 class="text-light" style="letter-spacing: 0px; text-transform: none;line-height:28px">Al-Muhanna Trading Company is one of the bigest and oldest Saudi companies in <br>the field of building materials.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row background_r row" style="background-image: url(assets/images/vector.svg);">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex1 align-items-center">
+                    <div class="with_outline_relative">
+                        <h1 class="with_outline">1985</h1>
+                        <h1 class="with_outline_h6">Established </h1>
+                    </div>
+
+                    <div>
+                        <h5 class="py-4">1985 - Al-Muhanna Trading Company was established in 1985
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="with_outline_relative">
+                        <div class="about_us_3" data-aos="fade-right">
+                            <figure class="mb-0 position-absolute1">
+                                <img src="assets/images/banner/about_us_3.jpg" alt="Established" class="img-fluid w-100">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="with_outline_relative">
+                        <div class="about_us_3" data-aos="fade-right">
+                            <figure class="mb-0 position-absolute1">
+                                <img src="assets/images/banner/about_us_6.jpg" alt="Established" class="img-fluid w-100">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex1 align-items-center">
+                    <div class="with_outline_relative">
+                        <h1 class="with_outline">2005</h1>
+                        <h1 class="with_outline_h6">Expansion </h1>
+                    </div>
+                    <div>
+                        <h5 class="py-4">2005 - Entering the industry field
+                        </h5>
+                    </div>
+                </div>
+
+
+            </div> -->
+            <style>
+                .timeline {
+                    position: relative;
+                    /* max-width: 800px; */
+                    margin: 0px auto;
+                }
+
+                .timeline::after {
+                    content: '';
+                    position: absolute;
+                    width: 4px;
+                    background-color: #0d6efd;
+                    top: 0;
+                    left: 50%;
+                    margin-left: -2px;
+                    height: 100%;
+
+                    /* Add animation */
+                    background: linear-gradient(to bottom, #0d6efd 50%, transparent 50%);
+                    background-size: 100% 200%;
+                    animation: timeline-flow 3s linear infinite;
+                }
+
+
+
+                .timeline-container {
+                    padding: 10px 40px;
+                    position: relative;
+                    background-color: inherit;
+                    width: 50%;
+                }
+
+                .timeline-container.left {
+                    left: 0;
+                }
+
+                .timeline-container.right {
+                    left: 50%;
+                }
+
+                .timeline-container::after {
+                    content: '';
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    right: -10px;
+                    background-color: white;
+                    border: 4px solid #0d6efd;
+                    top: 15px;
+                    border-radius: 50%;
+                    z-index: 1;
+                }
+
+                .right::after {
+                    left: -10px;
+                }
+
+                .timeline-card {
+                    background: white;
+                    padding: 20px;
+                    position: relative;
+                    border-radius: 10px;
+                    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+                }
+
+                .timeline-year {
+                    position: absolute;
+                    font-size: 4rem;
+                    color: rgb(255 255 255 / 56%);
+                    font-weight: bold;
+                    top: 10px;
+                    right: -190px;
+                }
+
+                .right .timeline-year {
+                    left: -170px;
+                    /* right: -125px; */
+                }
+            </style>
+            <!-- Timeline Section -->
+            <section id="timeline" class="py-5">
+                <div class="container">
+                    <div class="timeline">
+                        <div class="timeline-container right">
+                            <div class="timeline-year">1985</div>
+                            <div class="timeline-card">
+                                <h4>Foundation</h4>
+                                <p>Al-Muhanna Trading Company was established in 1985</p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="timeline-container  left">
+                            <div class="timeline-year">2005</div>
+                            <div class="timeline-card">
+                                <h4>Expansion and Modernization</h4>
+                                <p>Entering the industry field .</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
 
 
     <section class="our_portfolio_section sub_portfolio_section position-relative">
