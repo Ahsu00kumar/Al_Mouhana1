@@ -334,4 +334,4 @@
     <?php include('include/file_js.php') ?>
 </body>
 
-</html>
+</html>  
